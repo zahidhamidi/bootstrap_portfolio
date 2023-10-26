@@ -7,7 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 
     <title>Zahid's Portfolio</title>
 
@@ -15,33 +17,29 @@
   </head>
   <body>
 
-    <div class="container mx-auto mb-1">
-        
-        <div class="bg-warning py-2"> 
-
-           </div>
-           
-           <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="mx-auto mb-1">
+            <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                 <a class="navbar-brand" href="#">Brand</a>
-             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
-                 <span class="navbar-toggler-icon"></span>
-               </button>
-             <div class="collapse navbar-collapse" id="main_nav">
-               <ul class="navbar-nav ms-auto">
-                   <li class="nav-item"><a class="nav-link" href="#"> Home </a></li>
-                   <li class="nav-item"><a class="nav-link" href="#"> About Me</a></li>
-               <li class="nav-item"><a class="nav-link" href="#"> Projects </a></li>
-               </ul>
-             </div> <!-- navbar-collapse.// -->
+                <a class="navbar-brand" href="#">Zahid's Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="main_nav">
+                        <ul class="navbar-nav ms-auto ">
+                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">About Me</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Data Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Technical Projects</a></li>
+                        </ul>
+                    </div> <!-- navbar-collapse.// -->
             </div> <!-- container-fluid.// -->
-           </nav>
+            </nav>
     </div>
 
 
     <div class="container my-5">
         <img src="img/profile_pic.jpeg" class="rounded-circle border border-0 mb-3 mx-auto d-block" style="width: 230px; height: 220px">
-        <h1 class="mx-auto" style="text-align: center">Zahid Hamidi Abdul Hamid</h1>
+        <h1 class="mx-auto custom-font" style="text-align: center">Zahid Hamidi Abdul Hamid</h1>
         <a href="mailto:zhamidi.abdulhamid@gmail.com" class="email-button">
             <span class="bi bi-envelope-open"></span>
         </a>
@@ -73,18 +71,19 @@
 
     <hr class="hr" />
 
-    <div class="image-container text-center">
-        <h2 class="mx-auto mt-5 mb-3">Experiences</h2>
+    <div class="container my-5 text-center">
+        <h1 class="mx-auto mt-5 mb-3">Experiences</h1>
+        <p class="lead mt-3 mx-auto" style="text-align: center">5 years stretched in the energy business industry from working in the lab with oil field EOR and sand consolidation chemical research to near offshore as Engineer-in-Charge (EIC) for Coiled Tubing and Well Intervention end-to-end operations and now as a Data Scientist crunching my brain with upstream data and looking at PC screen :)</p>
         <h5 class="mx-auto mt-5 mb-3 text-muted">Technical - Digital - Research</h5>
         <img src="img/updatedIrayaLogo.png" class="img-thumbnail border border-0 mb-3" style="width: 150px; height: 80px">
-        
         <img src="img/Petronas_Logo.svg.png" class="img-thumbnail border border-0 mb-3" style="width: 100px; height: 80px">
         <img src="img/SLB_Logo_2022.svg.png" class="img-thumbnail border border-0 mb-3" style="width: 150px; height: 100px">
         <img src="img/UTP-logo.png" class="img-thumbnail border border-0 mb-3" style="width: 160px; height: 70px">
     </div>
 
     <div class="image-container text-center">
-        <h5 class="mx-auto mt-5 mb-3 text-muted">Mentoring - Tutoring - Voulenteering</h5>
+        <h5 class="mx-auto mt-5 mb-3 text-muted">Tutoring - Voulenteering - Mentoring</h5>
+        <p>I do teach Python Programming classes part-time, mentors young professionals and voulenteering with SPE</p>
         <img src="img/ga.jpg" class="img-thumbnail border border-0 mb-3" style="width: 160px; height: 80px">
         <img src="img/spe.png" class="img-thumbnail border border-0 mb-3" style="width: 140px; height: 130px">
         <img src="img/futurelab.png" class="img-thumbnail border border-0 mb-3" style="width: 150px; height: 80px">
@@ -92,7 +91,8 @@
     </div>
 
     <div class="image-container text-center">
-        <h5 class="mx-auto mt-5 mb-5 text-muted">Technical Engineering</h5>  
+        <h5 class="mx-auto mt-5 text-muted">Technical Engineering</h5>
+        <p class="mb-5">Field Operations and Data Management projects/job I have experienced so far ... </p>  
         <div class="container mb-5">
             <div class="row">
               <div class="col">Coiled Tubing Operations</div>
@@ -101,15 +101,18 @@
               <div class="col">Production Tech Data QC</div>
               <div class="col">Coiled Tubing Milling</div>
               <div class="col">Well Matrix Acidizing</div>
+              <div class="col">Well Clean-out</div>
               
             </div>
           </div>  
     </div>
     
+    <hr class="hr" />
 
-    <div class="image-container text-center">
-        <hr class="hr" />
-        <h2 class="image-container mx-auto mt-5 mb-5" style="text-align: center">Professional Skills</h2>
+    <div class="container my-5 text-center">
+        
+        <h1 class="image-container mx-auto mt-5 mb-3" style="text-align: center">Technical Skills and Accreditions</h1>
+        <p class="lead mt-3 mx-auto" style="text-align: center">Being in the competitive energy industry and to maintain relevance towards current digitalization movement, I strive to equip myself with all these tech stacks and accreditions to be all well-rounded</p>
         <h5 class="mx-auto mt-5 mb-3">Technology Stacks</h5>
         
         <img src="img/Python-Transparent-Background.png" class="img-thumbnail border border-0 mb-3" style="width: 70px; height: 60px">
@@ -122,10 +125,11 @@
         <img src="img/bi.png" class="img-thumbnail border border-0 mb-3" style="width: 70px; height: 70px">
         <img src="img/papp.png" class="img-thumbnail border border-0 mb-3" style="width: 100px; height: 100px">
         <img src="img/R_logo.png" class="img-thumbnail border border-0 mb-3" style="width: 70px; height: 60px">
+        <img src="img/hf.png" class="img-thumbnail border border-0 mb-3" style="width: 150px; height: 100px">
     </div>
 
     <div class="image-container text-center">
-        <h2 class="image-container mx-auto mt-5 mb-3" style="text-align: center">Certifications</h2>
+        <h5 class="image-container mx-auto mt-5 mb-3" style="text-align: center">Certifications</h5>
         <img src="img/bem.png" class="img-thumbnail border border-0 mb-3" style="width: 80px; height: 70px">
         <img src="img/mbot.jpg" class="img-thumbnail border border-0 mb-3" style="width: 120px; height: 140px">
         <img src="img/tscert.png" class="img-thumbnail border border-0 mb-3" style="width: 100px; height: 120px">
@@ -134,9 +138,15 @@
         
     </div>
 
-    <div class="image-container text-center">
-        <h2 class="image-container mx-auto mt-5 mb-5" style="text-align: center">Technical Papers & Publications</h2>
+    <hr class="hr" />
+
+    <div class="container my-5 text-center">
+        
+        <h2 class="image-container mx-auto mt-5 mb-3" style="text-align: center">Technical Papers & Publications</h2>
+        <p class="lead mb-3 mx-auto" style="text-align: center">Some of my projects do went through few conferences and publications, a contribution to the body of knowledge :)</p>
         <div class="mb-5">
+            <img src="img/eage2023.jpeg" class="img-thumbnail border border-0 mb-3" style="width: 150px; height: 150px">
+            <img src="img/APOGCE-logo.png" class="img-thumbnail border border-0 mb-3" style="width: 150px; height: 50px">
             <h5>Sand Production and Control Benchmarking through Unstructured Data Analysis with Machine Learning in the North Sea</h5>
             <p class ="text-muted">84th EAGE Annual Conference & Exhibition 2023 - Vienna, Austria</p>
             <p class ="text-muted">SPE/IATMI APOGCE Conference 2023 - Jakarta, Indonesia</p>
@@ -144,58 +154,94 @@
         </div>
 
         <div class="image-container text-center">
+            <img src="img/OTC-Asia.png" class="img-thumbnail border border-0 mb-3" style="width: 120px; height: 120px">
             <h5>Novel Colloidal Silica Sand Consolidation System</h5>
             <p class ="text-muted">ICOGET OTC Asia 2018 - Kuala Lumpur, Malaysia</p>
             <a href="#" class="link-success">Click Here for more</a>
         </div>
+    
+        
 
     </div>
 
+    <hr class="hr" />
 
-    <div class="container mt-5 text-center">
-        <hr class="hr" />
-        <h2>Previous Projects</h2>
-        <div class="row">
-            <div class="col-lg-3">
-                <div class="card m-b-3">
-                    <img src="https://picsum.photos/400/200" alt="NLP Text Negation Classification" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">NLP Text Negation Classification</h5>
-                            <p class="card-text">Negation Detection Workflow for Search Module Enhancement</p>
-                            <div class="btn btn-primary">View Github Repo</div>
-                        </div>
 
-                </div>
-            </div>
+    <!-- Gallery -->
+    <div class="row text-center">
+        <h2 class="image-container mx-auto mt-5 mb-3" style="text-align: center">My Data Science Art Gallery</h2>
+        <p class="lead mb-5 mx-auto" style="text-align: center">Snippets of my previous data science projects and many more to come! I've worked with Well Logging data, NLP Text Processing, NER, Knowledge Graphs. I don't really like hard-coding but visualizations make my day most of the time :)</p>
 
-            <div class="col-lg-3">
-                <div class="card m-b-3">
-                    <img src="https://picsum.photos/400/200" alt="NLP Document Summarization" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">NLP Document Summarization</h5>
-                            <p class="card-text">Negation Detection Workflow for Search Module Enhancement</p>
-                            <div class="btn btn-primary">View Github Repo</div>
-                        </div>
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <img
+            src="img2/msc1.png"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Boat on Calm Water"
+        />
+    
+        <img
+            src="img2/msc2.png"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Wintry Mountain Landscape"
+        />
 
-                </div>
-            </div>
+        <img
+            src="img2/kg.png"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Wintry Mountain Landscape"
+        />
 
-            <div class="col-lg-3">
-                <div class="card m-b-3">
-                    <img src="https://picsum.photos/400/200" alt="NLP NER" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">NLP NER</h5>
-                            <p class="card-text">Negation Detection Workflow for Search Module Enhancement</p>
-                            <div class="btn btn-primary">View Github Repo</div>
-                        </div>
+        </div>
+    
+        <div class="col-lg-4 mb-4 mb-lg-0">
+        <img
+            src="img2/msc3.png"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Mountains in the Clouds"
+        />
+    
+        <img
+            src="img2/welly1.png"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Boat on Calm Water"
+        />
 
-                </div>
-            </div>
+        
+
+        </div>
+    
+        <div class="col-lg-4 mb-4 mb-lg-0">
+        <img
+            src="img2/msc4.png"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Waves at Sea"
+        />
+
+
+        <img
+            src="img2/radar.png"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Yosemite National Park"
+        />
 
         </div>
 
+        <div class="text-center">
+
+            <img
+            src="img2/ner.png"
+            class="w-60 shadow-1-strong rounded mb-4"
+            alt="Boat on Calm Water"
+        />
+
+        </div>
     </div>
 
+    <hr class="hr" />
+
+  
+
+    
 
     <!-- Optional JavaScript; choose one of the two! -->
 

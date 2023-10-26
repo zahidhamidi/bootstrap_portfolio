@@ -1,0 +1,7 @@
+<style>
+    /* Apply the "Roboto Slab" font with a weight of 300 to a specific class or element */
+    .custom-font {
+        font-family: 'Roboto Slab', sans-serif;
+        font-weight: 300;
+    }
+</style>
